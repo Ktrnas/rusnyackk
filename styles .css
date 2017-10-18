@@ -1,0 +1,398 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+#headerdiv{
+	background-color:MediumVioletRed;
+	width:calc(100%-40px);
+	height:20px;
+	padding-left:100px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0;
+}
+
+.top_hrefs{
+	width:20px;
+	height:20px;
+	margin-left:5px;
+	margin-right:5px;
+}
+#secondheader{
+	background-color:white;
+	width:100%;
+	height:110px;
+	margin-bottom: 10 px;
+	
+	
+}
+.artim_logo{
+	height:20px;
+	width:100px;
+	margin-top:30px;
+	margin-bottom:25px;
+	margin-left:100px;
+	display:inline-block;
+}
+.menu_hrefs{
+	height:20px;
+	font-size:1em;
+	font-family:Segoe UI,sans-serif;
+	font-weight:normal;
+    text-decoration:none;
+	color:black;
+}
+.menu-container{
+	float:right;
+	display:inline-block;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+#photo_div{
+	width:100%;
+	height:800px;
+	background-image:url(photo-fon.jpg);
+	display:inline-block;
+	padding-top:230px;
+
+}
+#photo-text2{
+	color:white;
+	font-size:8em;
+	margin-left:100px;
+	display:inline-block;
+	margin-left:350px;
+	color:MediumVioletRed;
+}
+
+#photo-text1{
+
+	margin-left:10px;
+	display:inline-block;
+}
+#first-text{
+	font-family:Segoe UI,sans-serif;
+	color:white;
+	font-size:3em;
+}
+#second-text{
+	margin-top:10px;
+	font-family:Segoe UI,sans-serif;
+	color:white;
+	font-size:1.5em;
+}
+#photoblock1{
+	width:400px;
+	height:300px;
+	margin-top:140px;
+	margin-left:80px;
+	display:inline-block;
+	float:left;
+}
+#photoblock2{
+	width:400px;
+	height:300px;
+	margin-top:140px;
+	margin-left:0px;
+	display:inline-block;
+	float:left;
+}
+#photoblock3{
+	width:400px;
+	height:300px;
+	margin-top:140px;
+	margin-left:0px;
+	display:inline-block;
+	float:left;
+}
+#photoblock1-under{
+	background-color:DarkTurquoise;
+	width:250px;
+	height:50px;
+	display:inline-block;
+	float:left;
+	margin-left:80px;
+	padding-left:150px;
+	padding-top:20px;
+}
+#photoblock1-under-text{
+	font-size:1.5em;
+	color:white;
+	text-decoration:none;
+}
+#photoblock2-under{
+	background-color:MediumPurple;
+	width:250px;
+	height:50px;
+	display:inline-block;
+	float:left;
+	margin-left:0px;
+	padding-left:150px;
+	padding-top:20px;
+}
+#photoblock2-under-text{
+	font-size:1.5em;
+	color:white;
+	text-decoration:none;
+}
+#photoblock2-under{
+	background-color:MediumPurple;
+	width:250px;
+	height:50px;
+	display:inline-block;
+	float:left;
+	margin-left:0px;
+	padding-left:150px;
+	padding-top:20px;
+}
+#photoblock2-under-text{
+	font-size:1.5em;
+	color:white;
+	text-decoration:none;
+}
+#photoblock2-under{
+	background-color:MediumPurple;
+	width:250px;
+	height:50px;
+	display:inline-block;
+	float:left;
+	margin-left:0px;
+	padding-left:150px;
+	padding-top:20px;
+}
+#photoblock2-under-text{
+	font-size:1.5em;
+	color:white;
+	text-decoration:none;
+}
+#photoblock3-under{
+	background-color:Gold;
+	width:250px;
+	height:50px;
+	display:inline-block;
+	float:left;
+	margin-left:0px;
+	padding-left:150px;
+	padding-top:20px;
+}
+#photoblock3-under-text{
+	font-size:1.5em;
+	color:white;
+	text-decoration:none;
+}
+#lamp-tree-white-fon{
+	width:clac(100-50px);
+	height:770px;
+	padding-left:50px;
+}
+
+.lamp-tree-blocks{
+	width:550px;
+	height:550px;
+	display:inline-block;
+	float:left;
+	margin-left:50px;
+}
+.lamp-tree-foto{
+	width:100px;
+	height:100px;
+	display:inline-block;
+	float:left;
+	margin-right:20px;
+}
+.H-lamp-tree{
+	width:400px;
+	height:600px;
+	display:inline-block;
+	float:left;
+}
+.Head-tree-lamp{
+	color:gray;
+	font-size:3em;
+	margin-bottom:30px;
+	margin-left:25px;
+}
+.text-tree-lamp{
+	color:gray;
+	font-size:1.5em;
+	margin-left:25px;
+}
+
+#four-blocks-new{
+	width:100%;
+	height:400px;
+	padding-top:100px;
+	background-color:WhiteSmoke;
+}
+.four-block-main{
+	margin-left:70px;
+	width: 250px;
+	height:300px;
+	position:relative;
+	display:inline-block;
+	float:left;
+}
+.four-block-top{
+	padding-top:30px;
+	width: 250px;
+	height:120px;
+	background-color:Gainsboro;
+}
+.top-first-text{
+	font-size:1.2em;
+	color:grey;
+	text-align:center;
+	margin-bottom:5px;
+	
+}
+.top-second-text{
+	font-size:0.8em;
+	color:grey;
+	text-align:center;
+}
+.four-block-centre-picture{
+	width:100px;
+	height:100px;
+	border:2px dashed grey;
+	border-radius:100px;
+	position:absolute;
+	top:100px;
+	left:75px;	
+}
+.four-block-bottom{
+	width: 250px;
+	height:80px;
+	background-color:white;
+	padding-top:70px;
+}
+.bottom-first-text{
+	font-size:1em;
+	color:grey;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+#how-we-white-fon{
+	width:100%;
+	height:600px;
+	padding-top:80px;
+}
+#how-we-photo{
+	width:100px;
+	height:10px;
+	margin-left:400px;
+	display:inline-block;
+	float:left;
+}
+#how-we-text-block{
+	width:300px;
+	display:inline-block;
+	margin-left:50px;
+	margin-top:30px;
+	
+}
+#how-we-text{
+	font-size:3em;
+	color:gray;
+	display:inline-block;
+}
+.six-1{
+	width:500px;
+	height:100px;
+	margin-left:100px;
+	margin-top:50px;
+	display:inline-block;
+	float:left;
+}
+.header-six{
+	font-size:2em;
+	color:gray;
+	margin-bottom:10px;
+}
+.body-six{
+	font-size:1em;
+	color:gray;
+}
+.six-2{
+	width:500px;
+	height:100px;
+	margin-left:150px;
+	margin-top:50px;
+	display:inline-block;
+	float:left;
+}
+#portfolio-fon{
+	width:100%;
+	height:70px;
+	background-color:WhiteSmoke;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#portfolio-text-block{
+	display:inline-block;
+	float:left;
+	margin-left:550px;
+}
+#portfolio-text{
+	font-size:3em;
+	color:grey;
+}
+#employers-white-fon{
+	width:calc(100%-5px);
+	height:1000px;
+	padding-top:100px;
+	padding-left:5px;
+}
+.employers-main-block{
+	width:300px;
+	height:510px;
+	background-color:#F7F4F4;
+	display:inline-block;
+	float:left;
+	margin-left:30px;
+}
+.employers-photo{
+	margin-left:70px;
+	margin-top:60px;
+	width:150px;
+	height:150px;
+	border:8px solid grey;
+	border-radius:100px;
+}
+.employer-name{
+	margin-top:30px;
+	text-align:center;
+	font-size:2em;
+	color:grey;
+}
+.employer-job{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:30px;
+	font-size:1em;
+	color:grey;
+}
+.employer-social{
+	width:300px;
+	height:40px;
+	background-color:grey;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+.social-icon{
+	width:40px;
+	height:40px;
+	margin-left:25px;
+}

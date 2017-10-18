@@ -1,0 +1,693 @@
+@charset "utf-8";
+/*
+*{
+	margin:0;
+	padding:0;
+}
+*/
+
+body{
+    font-family: 'Open Sans',sans sans-serif;
+}
+
+
+.center-block-main {
+		margin: 0 auto; /*Центрування блоку*/
+		max-width: 990px; /*Гумова ширина*/
+	}
+#headerdiv{
+	background-color:#DA1C5C;
+	width:100%;
+	height:20px;
+	padding-left:5%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0;
+}
+
+.top_hrefs{
+   
+	width:15px;
+	height:15px;
+	margin-left:5px;
+    
+	
+}
+#secondheader{
+   
+	background-color:white;
+	width:100%;
+	height:80px;
+	margin:0,auto;
+   margin-right: 5%;
+ 
+	
+	
+}
+.artim_logo{
+	height:5x;
+	width:5px;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:300px;
+	display:inline-block;
+   margin-left:5%;
+}
+.menu_hrefs{
+  
+	height:20px;
+	font-size:1em;
+	font-family:'Open Sans',sans-serif;
+	font-weight:normal;
+    text-decoration:none;
+	color:black;
+
+     
+ 
+    
+    
+}
+.menu-container{
+    
+	float:right;
+	display:inline-block;
+	margin-top: 20px;
+	
+	margin-left: 30px;
+   
+    
+   
+	
+
+    
+  
+
+}
+#photo_div{
+	width:100%;
+	height:500px;
+	background-image:url(photo-fon.jpg);
+	display:inline-block;
+	padding-top:180px;
+   
+
+}
+
+
+
+
+#photo-text1{
+
+	display:inline-block;
+	float:left;
+	
+    padding-left: 45%;
+    height: 10px;
+    width:500px;
+   
+}
+#first-text{
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	font-size:1.8em;
+    left:50%;
+        top:50%;
+    
+
+}
+#first-text1{
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	font-size:1.1em;
+    margin-left: 45%;
+    margin-top: 70px;
+    font-weight: bold;
+        
+}
+#first-text2{
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	font-size:0.9em;
+    margin-left: 35%;
+    margin-top: 20px;
+        
+}
+
+
+#second-text{
+	margin-top:10px;
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	font-size:1.5em;
+}
+
+#photoblock0{
+	width:100px;
+	height:100px;
+	margin-top:90px;
+	margin-left:30%;
+	display:inline-block;
+	float:left;
+}
+#photoblock1{
+	width:100px;
+	height:100px;
+	margin-top:90px;
+	margin-left:80px;
+	display:inline-block;
+	float:left;
+}
+#photoblock2{
+	width:100px;
+	height:100px;
+	margin-top:90px;
+	margin-left:80px;
+	display:inline-block;
+	float:left;
+}
+#photoblock5{
+	width:100px;
+	height:100px;
+	margin-top:90px;
+	margin-left:80px;
+	display:inline-block;
+	float:left;
+}
+#photoblock3{
+	width:100px;
+	height:100px;
+	margin-top:90px;
+	margin-left:80px;
+	display:inline-block;
+	float:left;
+}
+
+#photoblock0-under-text{
+    font-size: 1.2em;
+	margin-top:15px;
+	margin-left:30%;
+	display:inline-block;
+	float:left;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+}
+#photoblock1-under-text{
+    font-size: 1.2em;
+	margin-top:15px;
+	margin-left:70px;
+	display:inline-block;
+	float:left;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+}
+#photoblock2-under-text{
+    font-size: 1.2em;
+	margin-top:15px;
+	margin-left:70px;
+	display:inline-block;
+	float:left;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+}
+#photoblock5-under-text{
+    font-size: 1.2em;
+	margin-top:15px;
+	margin-left:110px;
+	display:inline-block;
+	float:left;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+}
+
+#photoblock3-under-text{
+    font-size: 1.2em;
+	margin-top:15px;
+	margin-left:110px;
+	display:inline-block;
+	float:left;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+}
+
+
+
+#background{
+    background-color:ghostwhite;
+	width:100%;
+	height:450px;
+	
+ 
+}
+#about-us-text{
+     font-size: 2em;
+    font-family: Lato;
+    color:gray;
+    margin-left: 20%;
+    margin-top: 100px;
+   
+    
+}
+
+#about-us-image{
+    width: 450px;
+    height: 300px;
+    
+  padding-top: 100px;
+  float:right;
+    margin-right: 300px;
+    
+}
+
+#about-us-description1{
+     
+    font-size: 1em;
+    font-family: Lato;
+    color:gray;
+    margin-left: 20%;
+    margin-top: 35px;
+  
+}
+#about-us-description2{
+     font-size: 1em;
+    font-family: Lato;
+    color:gray;
+    margin-left: 20%;
+    margin-top: 35px;
+  
+    
+}
+#about-us-button{
+    background-color:darkorchid;
+    width:125px;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 35px;
+    padding-left: 10px;
+    padding-left: 5px;
+    padding-top: 25px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+#about-us-button-text{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding-left: 20px;
+   
+    font-family: Lato;
+}
+
+
+
+#photo_div02{
+	width:100%;
+	height:1200px;
+	background-image:url(home-cor22.jpg);
+	padding-left: 16%;
+   
+    
+    
+	
+
+}
+#phototop_div02{
+  
+
+    margin-top: 50px;
+    margin-left:30%;
+    height: 100px;
+    width: 100px;
+   
+
+}
+#texttop_div02{
+    font-size: 18pt;
+    margin-left: 22%;
+    color: white;
+
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+}
+
+
+
+.container-img img{
+    width: 229px;
+    height: 216px;
+    margin-right: -4px;
+    margin-top: -4px;
+}
+.container-img {
+    width: 915px;
+}
+
+
+
+#medal
+{
+    background-color: white;
+    height: 800px;
+    
+}
+
+#medal_img{
+    height: 120px;
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 46%;
+}
+
+#medal_text{
+   font-family:sans-serif;
+color:#905fa1;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+#david{
+    
+     width: 30%;
+     margin-left: 25px;
+    display: inline-block;
+    
+    
+}
+
+
+#miller{
+    
+     width: 30%;
+     margin-left: 25px;
+    display: inline-block;
+  
+    
+    
+}
+
+#milla{
+    
+     width: 30%;
+     margin-left: 25px;
+    display: inline-block;
+   
+    
+}
+
+
+
+
+#david_img{
+    height: 250px;
+    border-radius: 200px;
+   
+    
+}
+
+.hrefs4{
+    float:right;
+   
+}
+
+.hrefs401{
+    height: 50px;
+    width: 50px;
+    background-color:#905fa1; 
+     border-radius: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#david_text1{
+    color: #747474;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#david_text2{
+    color:#905fa1;
+    font-size: 1em;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+    
+}
+#david_text3{
+    color:#747474;
+    font-size: 10pt;
+    font-family:'Open Sans', sans-serif;
+}
+
+
+#our_skills{
+    height: 500px;
+    background-image: url(home-cor22.jpg);
+    
+}
+
+#skills_img{
+    height:120px;
+    width: 120px;
+     margin-top: 80px;
+    margin-left: 46%;
+}
+
+#skills_text{
+       font-family:'Open Sans',sans-serif;
+color:white;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.skills_fon1{
+    height: 40px;
+    width: 500px;
+    background-color:white;
+    border-radius: 5px;
+    float: right;
+    margin-right: 100px;
+ 
+
+ 
+}
+
+
+.skills_fon{
+    height: 40px;
+    width: 500px;
+    background-color:white;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+
+
+
+
+#skills_diagram6{
+    height: 30px;
+    width: 350px;
+    background-color:lightgrey;
+    margin-right: 100px;
+    margin-top: 0;
+    color: grey;
+    font-size: 0.8em;
+    font-family:'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+#skills_diagram5{
+    height: 30px;
+    width: 300px;
+    background-color:lightgrey;
+    margin-right: 100px;
+    margin-top: 0;
+    color: grey;
+    font-size: 0.8em;
+    font-family:'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+#skills_diagram4{
+    height: 30px;
+    width: 450px;
+    background-color:lightgrey;
+
+    margin-right: 100px;
+    margin-top: 0;
+    color: grey;
+    font-size: 0.8em;
+    font-family:'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+#skills_diagram1{
+    height: 30px;
+    width: 350px;
+    background-color:lightgrey;
+   
+    margin-right: 100px;
+    color: grey;
+    font-size: 0.8em;
+    font-family:'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+#skills_diagram2{
+    height: 30px;
+    width: 300px;
+    background-color:lightgrey;
+   
+    margin-right: 100px;
+    color: grey;
+    font-size: 0.8em;
+    font-family:'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#skills_diagram3{
+    height: 30px;
+    width: 450px;
+    background-color:lightgrey;
+   
+    margin-right: 100px;
+    margin-top: 0;
+    color: grey;
+    font-size: 0.8em;
+    font-family:'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+
+}
+#skills_diagram{
+height: 30px;
+    width: 400px;
+    background-color:lightgrey;
+    
+    margin-right: 100px;
+    color: grey;
+    font-size: 0.8em;
+    font-family:'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+.counter{
+    background-color: white;
+    height:500px;
+    
+
+}
+
+#counter_png{
+    height: 100px;
+    width:100px;
+    margin-left: 46%;
+    margin-top:50px; 
+}
+#counter_text{
+    text-align: center;
+    color: #905fa1;
+   font-weight:bold;
+    font-size: 1.4em;
+    
+}
+
+.level3{
+    float:left;
+    
+}
+
+.numbertext{
+    margin-left:100px;
+    text-align: center;
+}
+
+
+#text_number{
+    font-size: 4em;
+    color:#424242;
+    margin-bottom: 5px;
+    
+}
+#text_text{
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #905fa1;
+    
+}
+
+footer{
+    background-color: #333;
+    height: 400px;
+    padding-left: 100px;
+    
+}
+.footer_container{
+   
+    width:20%;
+    padding-right: 10px;
+margin-left: 25px;
+    margin-top: 30px;
+    float: left;
+}
+
+.footer_header{
+    color:white;
+    font-weight: bold;
+    
+}
+
+.down{
+    color:#bfbfbf;
+    font-size: 16px;
+}
+
+
+.portfolio_img{
+     max-width: 280px;
+    max-height: 280px;
+}
+
+.img3 img {
+    width:78px;
+    height: 80px;
+    margin-top:-4px;
+    margin-right: -4px;
+    
+    
+}
+
+.img4 img{
+    height: 80px;
+    width: 58.5px;
+    margin:0px;
+      margin-top:-4px;
+    margin-right: -4px;
+}
