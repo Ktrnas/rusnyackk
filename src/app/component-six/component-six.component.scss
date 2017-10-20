@@ -1,0 +1,85 @@
+#medal
+{
+    background-color: white;
+    height: 800px;
+    
+}
+
+#medal_img{
+    height: 120px;
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 46%;
+}
+
+#medal_text{
+   font-family:sans-serif;
+color:#905fa1;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+#david{
+    width: 30%;
+    margin-left: 25px;
+   display: inline-block; 
+}
+
+
+#miller{
+  
+    @extend #david;
+    
+}
+
+#milla{
+
+    @extend #david;
+}
+
+
+
+
+#david_img{
+    height: 250px;
+    border-radius: 200px;
+   
+    
+}
+
+.hrefs4{
+    float:right;
+   
+}
+
+.hrefs401{
+    height: 50px;
+    width: 50px;
+    background-color:#905fa1; 
+     border-radius: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#david_text1{
+    color: #747474;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#david_text2{
+    color:#905fa1;
+    font-size: 1em;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+    
+}
+#david_text3{
+    color:#747474;
+    font-size: 10pt;
+    font-family:'Open Sans', sans-serif;
+}

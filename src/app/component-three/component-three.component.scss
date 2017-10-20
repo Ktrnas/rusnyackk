@@ -1,0 +1,113 @@
+#photo_div{
+	width:100%;
+	height:500px;
+	background-image:url(/assets/photo-fon.jpg);
+	display:inline-block;
+	padding-top:180px;
+   
+
+}
+
+
+
+
+#photo-text1{
+
+	display:inline-block;
+	float:left;
+	
+    padding-left: 45%;
+    height: 10px;
+    width:500px;
+   
+}
+#first-text{
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	font-size:1.8em;
+    left:50%;
+        top:50%;
+    
+
+}
+#first-text1{
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	font-size:1.1em;
+    margin-left: 45%;
+    margin-top: 70px;
+    font-weight: bold;
+        
+}
+#first-text2{
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	font-size:0.9em;
+    margin-left: 35%;
+    margin-top: 20px;
+        
+}
+
+
+#second-text{
+	margin-top:10px;
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	font-size:1.5em;
+}
+
+@mixin photoblock-func($dist){
+	width:100px;
+	height:100px;
+	margin-top:90px;
+	margin-left:$dist;
+	display:inline-block;
+	float:left;
+
+}
+
+#photoblock0{
+@include photoblock-func(30%)
+}
+#photoblock1{
+	@include photoblock-func(80px)
+}
+#photoblock2{
+	@include photoblock-func(80px)
+}
+#photoblock5{
+	@include photoblock-func(80px)
+}
+#photoblock3{
+	@include photoblock-func(80px)
+}
+
+@mixin photoblock-under-text-func($dist){
+	font-size: 1.2em;
+	margin-top:15px;
+	margin-left:$dist;
+	display:inline-block;
+	float:left;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+
+}
+
+#photoblock0-under-text{
+ @include photoblock-under-text-func(30%)
+}
+#photoblock1-under-text{
+	@include photoblock-under-text-func(70px)
+   
+}
+#photoblock2-under-text{
+	@include photoblock-under-text-func(70px)
+}
+#photoblock5-under-text{
+	@include photoblock-under-text-func(110px)
+}
+
+#photoblock3-under-text{
+	@include photoblock-under-text-func(110px)
+}
