@@ -1,0 +1,24 @@
+<div id="photo_div">
+  
+  <div ><p  id="first-text">ARTIM COMPANY</p></div>
+      <div ><p  id="first-text1">Whith Us Only The Sky Is Your Limit</p></div>
+      <div  ><p  id="first-text2">Donec rutrum congue leo eget vivamus magna porttitor, lacinia eget consectetur sed, convallis at tellus.</p></div>
+      
+  
+      <!-- <div><img id="photoblock0"src="/assets/h1.png"> </div>
+  <div><img id="photoblock1"src="/assets/h2.png"></div>
+  <div><img id="photoblock2"src="/assets/h3.png"></div>
+      <div><img id="photoblock5"src="/assets/h5.png"></div>
+  <div><img id="photoblock3"src="/assets/h4.png"></div>
+  <div   > <p   id="photoblock0-under-text">A Real Design</p></div>
+  <div  ><p  id="photoblock1-under-text">Breath Colour</p></div>
+  <div ><p  id="photoblock2-under-text">Project</p></div>
+  <div   ><p id="photoblock5-under-text">Studio</p></div>
+       <div   ><p id="photoblock3-under-text">Campaign</p></div>
+      </div> -->
+ 
+  <div class="block3" *ngFor="let block of block3">
+      <img class="photoromb" src={{block.photoromb}}>
+      <p>{{block.text}}</p>
+  </div>
+

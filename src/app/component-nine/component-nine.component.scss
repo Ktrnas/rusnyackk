@@ -1,0 +1,47 @@
+footer{
+    background-color: #333;
+    height: 400px;
+    padding-left: 100px;
+    
+}
+.footer_container{
+   
+    width:20%;
+    padding-right: 10px;
+margin-left: 25px;
+    margin-top: 30px;
+    float: left;
+    h1{
+        color:white;
+        font-weight: bold;
+    }
+    p{
+        color:#bfbfbf;
+        font-size: 16px;
+         
+    }
+}
+
+
+@mixin margin-top-left-func{
+    margin-top:-4px;
+    margin-right: -4px;
+    
+
+}
+
+.block9{
+    float:left;
+}
+
+.img3 img {
+    width:74px;
+    height: 80px;
+    @include margin-top-left-func()
+}
+
+.img4 img {
+    height: 80px;
+    width: 55.5px;
+    @include margin-top-left-func()
+}

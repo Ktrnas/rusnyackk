@@ -1,0 +1,90 @@
+#our_skills{
+    height: 500px;
+    background-image: url(/assets/home-cor22.jpg);
+    
+}
+
+#skills_img{
+    height:120px;
+    width: 120px;
+     margin-top: 80px;
+    margin-left: 46%;
+}
+
+#skills_text{
+       font-family:'Open Sans',sans-serif;
+color:white;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+@mixin skills-fon-func{
+    height: 40px;
+    width: 500px;
+    background-color:white;
+    border-radius: 5px;
+}
+.skills_fon1{
+  @include skills-fon-func();
+    float: right;
+    margin-right: 100px;
+ 
+ 
+}
+
+
+.skills_fon{
+
+    @include skills-fon-func();
+    margin-left: 100px;
+}
+
+
+@mixin skills-diagram-func($dist){
+    height: 30px;
+    width: $dist;
+    background-color:lightgrey;
+    margin-right: 100px;
+    
+    color: grey;
+    font-size: 0.8em;
+    font-family:'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+#skills_diagram6{
+   
+    @include skills-diagram-func(350px)
+
+}
+#skills_diagram5{
+    margin-top: 0px;
+    @include skills-diagram-func(300px)
+
+}
+
+
+#skills_diagram4{
+    @include skills-diagram-func(450px)
+}
+#skills_diagram1{
+    @include skills-diagram-func(350px)
+}
+
+
+#skills_diagram2{
+    @include skills-diagram-func(300px)
+}
+
+#skills_diagram3{
+    margin-top: 0px;
+    @include skills-diagram-func(450px)
+
+}
+#skills_diagram{
+    @include skills-diagram-func(400px)
+}
+

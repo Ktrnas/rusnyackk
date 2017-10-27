@@ -1,0 +1,59 @@
+#photo_div{
+	width:100%;
+	height:500px;
+	background-image:url(/assets/photo-fon.jpg);
+	display:inline-block;
+	padding-top:100px;
+	padding-left: 250px;
+   
+
+}
+
+
+@mixin textwhite($size){
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	font-size:$size;
+
+}
+
+
+
+#first-text{
+     @include textwhite(1.8em);
+	margin-left:500px;
+    margin-top:40px;
+	
+    
+
+}
+#first-text1{
+	@include textwhite(1.1em);
+    margin-left: 490px;
+    margin-top: 40px;
+        
+}
+#first-text2{
+	@include textwhite(0.9em);
+    margin-left: 300px;
+	margin-top: 20px;
+
+        
+}
+
+
+.photoromb{
+
+	width: 100px;
+height: 100px;
+}
+
+.block3{
+	 
+	float:left;
+	margin-top:10px;
+	margin-left: 100px;
+	@include textwhite(1.5em);
+
+}
+
