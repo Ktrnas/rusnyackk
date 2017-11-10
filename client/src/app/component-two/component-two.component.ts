@@ -24,6 +24,7 @@ export class ComponentTwoComponent implements OnInit {
 
   constructor() { }
 formLink='/form';
+registrationLink='/registration';
 
   ngOnInit() {
   }

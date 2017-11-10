@@ -1,0 +1,100 @@
+<form #moreinfoForm ="ngForm">
+ 
+  <div >
+      <label>Created at</label>
+      <div class="datepicker">
+      <dp-date-picker name="createdat"  required [(ngModel)]="company.createdat" #createdat="ngModel"  ></dp-date-picker>
+      
+      <div *ngIf="createdat.errors" class="alert alert-danger">
+        <div [hidden]="!createdat.errors.required">
+         required field
+        </div>
+        </div>
+ </div>
+   </div>   
+   
+
+<div>
+<div class="input">
+<label>Country</label>
+<select name="country" required [(ngModel)]="company.country" #country="ngModel">
+  <option value="Ukraine" >Ukraine</option>
+  <option value="Russia">Russia</option>
+  <option value="USA">USA</option>
+  <option value="Poland">Poland</option>
+  <option value="Other">Other</option>
+</select>
+<div *ngIf="country.errors &&  country.untouched" class="alert alert-danger">
+<div [hidden]="!country.errors.required">
+ required field
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div>
+  <div class="input">
+<label>Count of employees</label>
+<input type="number" name='step' required pattern="[1-9]*" [(ngModel)]="company.step"  #step="ngModel">
+<div *ngIf="step.errors && (step.invalid || step.untouched)" class="alert alert-danger">
+  <div [hidden]="!step.errors.required"> 
+    required field
+</div>
+  <div [hidden]="!step.errors.pattern">
+must be more than 0!
+</div>
+</div>
+</div>
+</div>
+
+
+<div>
+    <div class="input">
+    <label>CEO</label>
+    <input type="text" name='ceo' required minlength="6" [(ngModel)]="company.ceo" #ceo="ngModel">
+    <div *ngIf="ceo.errors && (ceo.invalid || ceo.untouched)" class="alert alert-danger">
+    <div [hidden]="!ceo.errors.required">
+    required field
+    </div>
+    <div [hidden]="!ceo.errors.minlength">
+    CEO must be at least 6 charackters long!
+    </div>
+    </div>
+    </div>
+    </div>
+  
+
+    
+
+
+    <div>
+        <div class="input">
+        <label>City</label>
+        <input type="text" name='city'  [(ngModel)]="company.city" #city="ngModel">
+        </div>
+        </div>
+
+        <div>
+        <div class="input">
+        <label>Address Line:</label>
+        <input type="text" name='address' required [(ngModel)]="company.address" #address="ngModel">
+        <div *ngIf="address.errors && (address.invalid || address.untouched)" class="alert alert-danger">
+        <div [hidden]="!address.errors.required">
+             required field
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+        <div>
+          <div class="input">
+          <button [disabled]="!moreinfoForm.form.valid" (click)="savemoreinfo()">Save</button>
+          </div>
+          </div>
+          </form> 
+         
+         

@@ -8,7 +8,7 @@
 
 
 <div class="block2" *ngFor ="let block of block2">
-    <a routerLink="/"  > {{block.text1}}</a>
+    <a [routerLink]="registrationLink"  > {{block.text1}}</a>
 <a [routerLink]="formLink"  > {{block.text0}}</a>
 </div>
 
